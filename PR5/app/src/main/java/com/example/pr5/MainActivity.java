@@ -1,4 +1,4 @@
-package com.example.pr5_17it013;
+package com.example.pr5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText e1,e2;
     Button b1,b2;
     TextView result;
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         e1 = (findViewById(R.id.e1));
         e2 = (findViewById(R.id.e2));
         b1 = (findViewById(R.id.b1));
@@ -45,20 +43,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void check(String name, String pass){
-            if((name.equals("17it013") || name.equals("17IT013")) && (pass.equals("dp007") )){
-                result.setText("Successfully Login");
-                result.setBackgroundColor(Color.GREEN);
+        if((name.equals("17it090") || name.equals("17IT090")) && (pass.equals("avanit123") )){
+            result.setText("Successfully Login");
+            result.setBackgroundColor(Color.GREEN);
 
-            }
-            else{
-                count--;
-                result.setText("Inncorrect Username or Password");
-                result.setBackgroundColor(Color.RED);
+        }
+        else{
+            count--;
+            result.setText("Inncorrect Username or Password");
+            result.setBackgroundColor(Color.RED);
 
-                if(count==0){
-                    b1.setEnabled(false);
-                }
-                Toast.makeText(getApplicationContext(),String.valueOf(count)+" Attempts Remains",Toast.LENGTH_SHORT).show();
+            if(count==0){
+                b1.setEnabled(false);
             }
+            Toast.makeText(getApplicationContext(),String.valueOf(count)+" Attempts Remains",Toast.LENGTH_SHORT).show();
+        }
     }
 }
