@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login Page 17IT013"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-110dp"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="200dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+</LinearLayout>
