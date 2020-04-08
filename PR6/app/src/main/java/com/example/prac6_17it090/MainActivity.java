@@ -1,24 +1,20 @@
-package com.example.pr_6_17it013;
+package com.example.prac6_17it090;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.Toast;
-import android.widget.ToggleButton;
-import android.hardware.camera2.CameraManager;
+
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraManager;
 import android.os.Bundle;
 import android.widget.CompoundButton;
+import android.widget.Toast;
+import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
-
     private CameraManager mCameraManager;
     private String mCameraId;
-
     private ToggleButton toggleButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

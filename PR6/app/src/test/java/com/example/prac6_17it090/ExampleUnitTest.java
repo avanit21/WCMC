@@ -1,4 +1,4 @@
-package com.example.pr_6_17it013;
+package com.example.prac6_17it090;
 
 import org.junit.Test;
 
