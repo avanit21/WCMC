@@ -1,4 +1,4 @@
-package com.example.pr4_17it013;
+package com.example.pr4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,16 +9,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     Button b1,b2;
     EditText e1;
     TextView result;
     double n1,n2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         b1 = findViewById(R.id.b1);
         b2 = findViewById(R.id.b2);
         e1 = findViewById(R.id.e1);
