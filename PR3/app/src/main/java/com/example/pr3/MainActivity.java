@@ -1,8 +1,9 @@
-package com.dharmesh.pr3;
+package com.example.pr3;
 
-import android.os.CountDownTimer;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {

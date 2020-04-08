@@ -1,4 +1,4 @@
-package com.dharmesh.pr3;
+package com.example.pr3;
 
 import org.junit.Test;
 
