@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/frag1"
-        class="com.example.pr8_17it013.Prlistfragment"
+        class="com.example.pr8.Prlistfragment"
         android:layout_weight="0.8" />
     <View
         android:layout_width="wrap_content"
@@ -22,9 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/frag2"
-        class="com.example.pr8_17it013.Imgfragment"
+        class="com.example.pr8.Imgfragment"
         android:layout_weight="0.2"></fragment>
-
-
 
 </LinearLayout>

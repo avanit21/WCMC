@@ -1,4 +1,4 @@
-package com.example.pr8_17it013;
+package com.example.pr8;
 
 import androidx.appcompat.app.AppCompatActivity;
 
